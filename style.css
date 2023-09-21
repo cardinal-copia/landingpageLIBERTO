@@ -1,0 +1,48 @@
+html {
+    font-size: 20px;
+}
+body {
+    margin: 0;
+    background-image: url(BG3Group.jpg);
+    background-size: cover;  
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+main {
+    padding: 2rem;
+    max-width: 600px;
+  }
+h1 {
+    text-shadow: 2px 2px 3px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 4rem;
+    font-family: 'Crimson Text', serif;
+    color: whitesmoke;
+}
+p {
+    text-shadow: black 5px 0 10px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+form input {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.75rem;
+    border: 0;
+  }
+  form input:focus {
+    outline: none;
+}
+  form input[type="button"] {
+  border-radius: 10px;
+  background-color: #660c0c;
+  color: whitesmoke;
+  }
+  form input[type="button"]:active {
+  background-color: #964545;
+}
